@@ -1,0 +1,9 @@
+CREATE TABLE users (
+    user_id INT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(255),
+    phone VARCHAR(15),
+    role ENUM('admin', 'user'), -- Only 'admin' or 'user' are allowed
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
