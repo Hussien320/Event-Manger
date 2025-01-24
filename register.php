@@ -1,6 +1,8 @@
 
-
-
+<?php
+require_once "config_session.inc.php";
+require_once "register_view.inc.php";
+?>
 
 <body>
     <link rel="stylesheet" href="style.css" />
@@ -25,4 +27,8 @@
         </div>
         <div class="theme-btn-container"></div>
     </section>
+
 </body>
+<?php
+        check_signup_errors();
+?>

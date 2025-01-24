@@ -25,6 +25,14 @@ try{
     if(email_arleady_exist($email)){
         $errors["email_valid"]="email already exist!"
     }
+    require_once 'config_session.inc.php';
+
+    if($errors){
+        $_SESSION["errors_signup"]=$errors;
+        header("Location: ../index.html");
+    }
+
+
 
 }
 catch(PDOException $e){
