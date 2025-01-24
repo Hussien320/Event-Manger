@@ -1,7 +1,7 @@
 
 <?php
-require_once "config_session.inc.php";
-require_once "register_view.inc.php";
+require_once "./includes/config_session.inc.php";
+require_once "./includes/register_view.inc.php";
 ?>
 
 <body>
@@ -28,7 +28,7 @@ require_once "register_view.inc.php";
         <div class="theme-btn-container"></div>
     </section>
 
-</body>
-<?php
+    <?php
         check_signup_errors();
 ?>
+</body>

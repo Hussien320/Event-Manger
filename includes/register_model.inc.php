@@ -7,7 +7,7 @@ function getuser( object $pdo, string $username){
     $statement->execute();
     $result=  $statement->fetch(PDO::FETCH_ASSOC);
     return $result;
-    $statement->close()
+ 
 
 }
 function getemail(object $pdo,string $email){
@@ -17,7 +17,7 @@ function getemail(object $pdo,string $email){
     $stmt->execute();
     $result=$stmt->fetch(PDO::FETCH_ASSOC);
     return $result;
-    $stmt->close();
+
 
 }
    
