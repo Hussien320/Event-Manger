@@ -20,7 +20,7 @@ require_once "./includes/register_view.inc.php";
                 </form>
                 <div class="register-forget opacity">
                     <a href="index.html">Log In</a>
-                    <a href="">FORGOT PASSWORD</a>
+                    <a href="">ORGOT PASSWORD</a>
                 </div>
             </div>
             <div class="circle circle-two"></div>
